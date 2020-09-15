@@ -1,0 +1,98 @@
+.Container {
+  margin: 150px auto 0 auto;
+  max-width: 1024px;
+  height: auto;
+  min-height: 300px;
+}
+
+.Main {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.Main span {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #777;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.Main input {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
+  border-radius: 7px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+.Main ul {
+  list-style-type: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 200px;
+  text-align: left;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
+  margin: 0;
+  padding: 0;
+}
+
+.Main ul::before {
+  content: "";
+}
+
+.Main li {
+  padding: 10px 35px;
+  cursor: pointer;
+}
+
+.Main li:hover {
+  background-color: #d4f3ff;
+}
+
+.list_title {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #444;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.list_description {
+  font-size: 1.1rem;
+  width: 100%;
+  min-width: 260px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 300;
+  color: #666;
+  padding-top: 5px;
+  letter-spacing: 0;
+}
